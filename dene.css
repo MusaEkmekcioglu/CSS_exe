@@ -2,9 +2,78 @@ body {
    
   background-repeat: no-repeat;
   background-blend-mode: lighten;
-  background-image: url("logo.png")
-  
 
-  
-        
+  font-size: 22px;
+       
+  } 
+/* content<padding<border<margin   */ 
+  h1 {
+    text-align: center;
+    font-size: 300%;
+    line-height: 1.5em;
+    background-color: rgb(185, 101, 101);
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-style: dotted;
+    border-bottom-color: limegreen;
   }
+  p.musa1 {
+
+    font-size: 1.2em;
+    background-image: url(logo.png);
+    border-radius: 10px;
+  }
+  p.musa2{
+    text-align: center;
+    font-size: 90%;
+    line-height: 1.5em;
+    background-color: rgb(185, 101, 101);
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: outset;
+  }
+p.musa3{
+  text-align: center;
+  font-size: 90%;
+  line-height: 1.5em;
+  background-color: rgb(218, 193, 193);
+  padding: 20px;
+  border-color: rgb(40, 65, 117);
+  border-width: 2px;
+  border-style: solid;
+  margin: 20px;
+  margin-top: 50px;
+  margin-left: 400px;
+  padding-left: 70px;
+
+}
+/* margin-left
+margin-right
+margin-top
+margin-bottom
+
+marginde spesific olarak mesafeleri ayarliyorsun px sel olarak yazarak
+padding ise border icindeki mesafeyi ayarliyor
+
+
+padding-left
+padding-right
+padding-top
+padding-bottom */
+
+.resim{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+  background-color: sienna;
+  border-color: springgreen;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+
+}
